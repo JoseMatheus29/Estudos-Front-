@@ -1,0 +1,38 @@
+*{margin: 0; padding: 0;}
+
+:root{
+    --hue-color: 206;
+    --body-color: hsl(var(--hue-color), 4%, 6%);
+}
+
+
+body{
+    background-color: var(--body-color);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+     
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#rodape{
+    width: 100px;
+    height: 40px;
+}
+main{
+    color: #fff;
+}
